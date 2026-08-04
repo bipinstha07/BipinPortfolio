@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+:root{
+    font-family: "Quicksand", sans-serif;
+
+}
+
+html, body, * {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Minimal carousel styling */
+.minimal-carousel {
+    position: relative;
+}
+
+.minimal-carousel .react-multi-carousel-arrow {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: none !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.minimal-carousel:hover .react-multi-carousel-arrow,
+.minimal-carousel .react-multi-carousel-arrow:hover {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.minimal-carousel .react-multi-carousel-arrow:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+    transform: scale(1.1) !important;
+}
+
+.minimal-carousel .react-multi-carousel-arrow::before {
+    font-size: 4px !important;
+    color: white !important;
+}
+
+.minimal-carousel .react-multi-carousel-dot-list {
+    bottom: 10px !important;
+}
+
+.minimal-carousel .react-multi-carousel-dot button {
+    width: 3px !important;
+    height: 3px !important;
+    border-radius: 50% !important;
+    background: rgba(255, 255, 255, 0.4) !important;
+    border: none !important;
+    margin: 0 3px !important;
+    transition: all 0.3s ease !important;
+}
+
+.minimal-carousel .react-multi-carousel-dot--active button {
+    background: rgba(255, 255, 255, 0.8) !important;
+    transform: scale(1.2) !important;
+}
