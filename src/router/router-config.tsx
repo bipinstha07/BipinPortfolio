@@ -7,6 +7,7 @@ import BlackHoleSimulation from "../blog/Blackhole/BlackHoleSimulation";
 import Black from "../blog/Blackhole/Black";
 import PrivacyBravify from "../privacy-policy/PrivacyBravify";
 import PrivacyXtofbauto from "../privacy-policy/PrivacyXtofbauto";
+import PrivacyNotes from "../privacy-policy/PrivacyNotes";
 
 
 const routerObj  = createBrowserRouter(
@@ -35,6 +36,9 @@ const routerObj  = createBrowserRouter(
         },
         {path:'/privacy-policy/xtofbauto',
             element: <PrivacyXtofbauto/>
+        },
+        {path:'/privacy-policy/notes',
+            element: <PrivacyNotes/>
         }
 
     
