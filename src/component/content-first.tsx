@@ -16,8 +16,8 @@ const container = (delay: number) => ({
     visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } }
 })
 
-    const spaceTime = ` I am also a Space and Astronomy enthusiast, deeply fascinated by the mysteries of the universe — from black holes and time travel to the very fabric of reality. I am passionate about exploring how space and time shape everything we know and everything yet to be discovered. I also lead a vibrant community called "Space Time," bringing together over 140,000 members who share the same passion.`
-    const alldata = `{
+const spaceTime = ` I am also a Space and Astronomy enthusiast, deeply fascinated by the mysteries of the universe — from black holes and time travel to the very fabric of reality. I am passionate about exploring how space and time shape everything we know and everything yet to be discovered. I also lead a vibrant community called "Space Time," bringing together over 140,000 members who share the same passion.`
+const alldata = `{
         "personalInfo": {
             "name": "Bipin Shrestha",
             "title": "Full-Stack Developer & Computer Science Student",
@@ -168,7 +168,7 @@ const container = (delay: number) => ({
             // ...other projects can be appended here similarly
         ]
     }`;
-    
+
 
 function ContentFirst() {
     const [text, setText] = useState("")
@@ -366,7 +366,7 @@ function ContentFirst() {
         }
     };
 
-    
+
     return (
         <>
             <div className="flex 2xl:h-[75vh]  md:pt-25 flex-wrap  pt-0  relative">
@@ -437,22 +437,14 @@ function ContentFirst() {
                         <a href="/resume" className="mr-2 group">
                             <Button className="!bg-transparent !border-green-500 !text-green-500 hover:!text-white hover:!shadow-[0_0_20px_rgba(34,197,94,0.5)] flex items-center gap-2 relative overflow-hidden">
                                 <span className="relative z-10">Resume</span>
-                                
+
 
                                 {/* Slide animation background */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-green-600 via-green-500 to-green-400 -translate-y-full group-hover:translate-y-0 transition-transform duration-200 ease-out"></div>
                             </Button>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/bipin-shrestha-4baba01a0/" target="_blank" className="group">
-                            <Button className="relative !bg-transparent !border-cyan-400 !text-cyan-400 hover:!shadow-[0_0_20px_rgba(34,211,238,0.5)] hover:!text-white !transition-all !duration-300 flex items-center gap-2 overflow-hidden">
-                                <span className="relative z-10">Let's Connect</span>
-                                <FaLongArrowAltRight className="relative z-10 group-hover:translate-x-2 transition-transform" />
-                                
-                                {/* Slide color animation background */}
-                                <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
-                            </Button>
-                        </a>
+
                     </motion.div>
                 </div>
 
