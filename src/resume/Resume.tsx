@@ -7,20 +7,20 @@ export default function Resume() {
       <nav className="fixed top-0 w-full bg-white border-b border-gray-200 z-50 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-2">
           <div className="flex items-center justify-between">
-            
+
             <div className="flex items-center gap-2">
-              <a 
-                href="/" 
+              <a
+                href="/"
                 className="flex items-center gap-1 px-3 py-1.5 border border-gray-300 text-gray-700 hover:bg-gray-50 bg-transparent rounded text-sm font-medium"
               >
                 <Home className="w-4 h-4" />
                 Home
               </a>
               <a href="Bipin_Shrestha_Resume.pdf" download>
-              <button className="flex items-center gap-1 px-3 py-1.5 cursor-pointer border border-gray-300 text-gray-700 hover:bg-gray-50 bg-transparent rounded text-sm font-medium">
-                <Download className="w-4 h-4" />
-                Download Resume
-              </button>
+                <button className="flex items-center gap-1 px-3 py-1.5 cursor-pointer border border-gray-300 text-gray-700 hover:bg-gray-50 bg-transparent rounded text-sm font-medium">
+                  <Download className="w-4 h-4" />
+                  Download Resume
+                </button>
               </a>
             </div>
           </div>
@@ -35,7 +35,6 @@ export default function Resume() {
             <h1 className="text-3xl sm:text-4xl font-bold text-black mb-1">Bipin Shrestha</h1>
             <div className="text-gray-600 text-[10px] sm:text-xs">
               Monroe, LA | bipinshrestha830@gmail.com | +1 318-690-8483 |
-              <a href="https://www.linkedin.com/in/bipin-shrestha-4baba01a0/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">LinkedIn</a> |
               <a href="https://github.com/bipinstha07" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">GitHub</a> |
               <a href="https://www.bipinshrestha01.com.np" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">Portfolio</a>
             </div>
