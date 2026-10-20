@@ -1,4 +1,4 @@
-import { FaBlogger, FaLinkedin } from "react-icons/fa";
+import { FaBlogger } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import logo from '../assets/logo.png'
 
