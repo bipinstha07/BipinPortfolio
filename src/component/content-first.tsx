@@ -1,5 +1,4 @@
 import { Button } from "antd";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaRobot } from "react-icons/fa";
 import { IoMdSend } from "react-icons/io";
 import { RxCrossCircled } from "react-icons/rx";
